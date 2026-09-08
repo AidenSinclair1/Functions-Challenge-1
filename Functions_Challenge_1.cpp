@@ -13,7 +13,7 @@ interface with input validation.
 
 using namespace std;
 
-// Function prototypes
+
 double calculateArea(const double radius);
 double calculateArea(const double length, const double width);
 
@@ -81,29 +81,29 @@ int main() {
     return 0;
 }
 
-// Circle area
+
 double calculateArea(const double radius) {
     const double PI = 3.14159;
     return PI * radius * radius;
 }
 
-// Rectangle area
+
 double calculateArea(const double length, const double width) {
     return length * width;
 }
 
-// Circle perimeter/circumference
+
 double calculatePerimeter(const double radius) {
     const double PI = 3.14159;
     return 2 * PI * radius;
 }
 
-// Rectangle perimeter
+
 double calculatePerimeter(const double length, const double width) {
     return 2 * (length + width);
 }
 
-// Gets a positive number from the user
+
 double getPositiveNumber(const string& prompt) {
     double number;
 
@@ -121,7 +121,6 @@ double getPositiveNumber(const string& prompt) {
     }
 }
 
-// Gets a valid menu choice
 int getMenuChoice() {
     int choice;
 
